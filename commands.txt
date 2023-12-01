@@ -1,0 +1,15 @@
+- "!" to create html mark.
+- "mkdir" to create a new directory on git bash.
+- "touch" to create a new file on git bash.
+- mark.class to create a mark (ex. footer.footer) on html.
+- alt+shift+downarrow to copy paste lines faster (or uparrow).
+- mark.class*number to create multiple marks.
+- "loremNumber" to create a random text with X words.
+- ctrl-B to hide and show sidebar on vscode
+- 1rem = 16px after format
+- alt+downarrow or alt+uparrow to move a line
+
+GIT COMMANDS
+- 'git add filename' adds files or folders to a stage.
+- 'git commit -m "message"' it saves your information and includes a message.
+- 'git-push' this uploads the information to the remote repository in github.
