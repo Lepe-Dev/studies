@@ -5,15 +5,28 @@
     font-size: 10px;
     font-family: 'DM Serif Display', serif;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
-    background-color: #002855;
-    color: #979dac;
+    background-color: #1a232c;
+    color: #afafaf;
+}
+section{
+    padding-top: 5rem;
+    height: 100%;
+}
+.home__section, .projects__section, .contact__section{
+    background-color: rgb(237, 241, 245);
+    color: black;
+}
+.sticky__header{
+    position: sticky;
+    top: 0;
 }
 /*Navbar starts here*/
 .navbar {
-    background-color: #001233;
+    background-color: #0F0F0F;
     padding: 2rem;
 }
 .navbar__list{
@@ -25,12 +38,12 @@ body{
     gap: 2rem;
 }
 .navbar__links{
-    color: #979dac;
+    color: #c4c4c4;
     font-size: 1.4rem;
     text-decoration: none;
 }
 .navbar__links:hover{
-    color: aliceblue;
+    color: #007f5b;
 }
 /*Navbar ends here*/
 
@@ -45,9 +58,19 @@ body{
 }
 .subtitle{
     font-size: 2rem;
+    color: #009f8a;
 }
 .paragraph{
     font-size: 1.2rem;
+}
+.home__p{
+    font-size: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 16rem;
+}
+.dev__style{
+    font-size: 8rem;
+    color: #7f0000;
 }
 .index__img{
     width: 15rem;
