@@ -77,3 +77,18 @@ section{
     margin-left: 21%;
 }
 /*Home ends here*/
+
+/*Projects start here*/
+.grid__projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.projects__section{
+    padding: 2rem;
+    border: 1px solid #1a232c;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+/*Projects ends here*/
